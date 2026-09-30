@@ -1,0 +1,188 @@
+body {
+    background-color: #EDF2C5;
+    font-family: 'Noto Sans TC', sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+}
+header{
+    display: flex;
+    align-items: center;
+    width: 1122px;
+    height: 62px;
+    top: 36px;
+    left: 160px;
+    margin: 40px auto 5px auto;
+}
+.primary{
+    color: #778A50;
+   
+}
+.header_info{
+    display: flex;
+    margin-left: auto;
+}
+h1{
+    font-size: 44px;
+    font-weight: 900;
+    width:253px;
+    height: 60px;
+    margin: 0;
+}
+.social{
+    height:24px;
+    width:24px;
+    margin: 32px 5px 30px 5px;
+}
+line.header_line{
+    display: block;
+    width: 0px;
+    height: 24px;
+    border:1px solid #778A50;
+    margin: 30px 8px;
+    left: 72px;
+}
+.t1{
+    display:inline-block;
+    font-size: 14px;
+    height: 19px;
+    margin: 30px 5px;
+    border: 1px solid #778A50;
+    border-radius: 3px;
+    padding: 4px 8px;
+}
+#login{
+    width: 46px;
+    left: 83px;
+}
+#join{
+    width: 33px;
+    left: 159px;
+}
+nav{
+    display: flex;
+    width: 1120px;
+    height: 44px;
+    top: 106px;
+    left: 160px;
+    border-radius: 3px;
+    background-color: #778A50;
+    margin: 5px auto 10px auto;
+}
+h2{
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 900;
+    color: #EDF2C5;
+    height: 24px;
+    top: 10px;
+    margin: 10px 30px;
+}
+.main_img{
+    display: flex;
+    width: 1120px;
+    height: 448px;
+    margin: 5px auto 30px auto;
+    border-radius: 0;
+}
+.body{
+    flex: 1 0 auto;
+    width: 1120px;
+    margin: 0 auto;
+}
+.body_content{
+    display: flex;
+    justify-content: space-between;
+    width: 1120px;
+}
+.b_vegetables{
+    margin: 0;
+    width: 528px;
+}
+.b_vegetables_title{
+    display: inline-block;
+    margin: auto;
+    width: 528px;
+    height: 45px;
+    background-color: #778A50;
+    border-radius: 3px;
+}
+.b_vegetables_imgs{
+    display: flex;
+    width: 528px;
+    height: 140px;
+    top: 61px;
+    margin-top: 15px;
+    justify-content: space-between;
+}
+.vegetables_img{
+    width: 165px;
+    height: 140px;
+    margin: 0;
+}
+.b_contact{
+    display: block;
+    margin: 0;
+    width: 528px;
+    height: 210px;
+}
+.b_contact_title{
+    display: flex;
+    margin-left: auto;
+    width: 528px;
+    height: 45px;
+    background-color: #778A50;
+    border-radius: 3px;
+}
+.b_contact_info{
+    display: flex;
+    flex-direction: column;
+    background-color: #F7FBDA;
+    width: 528px;
+    height: 140px;
+    top: 61px;
+    margin-top: 15px;
+}
+.t2{
+    weight: 400px;
+    font-size: 12px;
+    top: 88px;
+    left: 16px;
+}
+.content_text{
+    color:#7D7D7D;
+}
+.contact_line{
+    display: block;
+    width: 496px;
+    top: 79px;
+    left: 16px;
+    border:1px solid #7D7D7D;
+    margin: 0 15px;
+}
+.message{
+    margin: 15px 20px 10px 20px;
+}
+.info{
+    margin: 10px 20px 15px 20px;
+}
+footer{
+    display: flex;
+    flex-shrink: 0;
+    width: 100%;
+    height: 60px;
+    top: 964px;
+    border-radius: 3px;
+    background-color: #778A50;
+    margin: 122px 0 0 0;
+}
+.footer_text{
+    display: flex;
+    margin: auto;
+    weight: 400px;
+    font-size: 12px;
+    top: 21px;
+    left: 569px;
+    color: #EDF2C5;
+}
